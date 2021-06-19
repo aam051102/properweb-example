@@ -4,6 +4,8 @@
 		"rootDir": ".",
 		"outDir": "./dist",
 		"jsx": "preserve",
+		"jsxFactory": "JSX.createElement",
+		"jsxFragmentFactory": "JSX.fragment",
 		"lib": [
 			"DOM",
 			"DOM.Iterable",
