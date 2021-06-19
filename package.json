@@ -16,10 +16,10 @@
         "eslint": "^7.29.0",
         "eslint-plugin-react": "^7.23.2",
         "eslint-plugin-react-hooks": "^4.2.0",
-        "properweb-cli": "^1.0.2",
+        "properweb-cli": "^1.0.8",
         "typescript": "^4.3.2"
     },
     "dependencies": {
-        "properweb": "^1.0.3"
+        "properweb": "^1.0.4"
     }
 }
