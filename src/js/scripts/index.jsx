@@ -1,4 +1,3 @@
-import { JSX } from "properweb";
 import "src/js/partials/sub";
 
 const handleClick = e => {

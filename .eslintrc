@@ -29,7 +29,8 @@
 		"project": "jsconfig.json"
     },
 	"globals": {
-		"React": "writable"
+		"React": "writable",
+		"JSX": "writable"
 	},
     "rules": {
         "react/prop-types": [ "off" ],

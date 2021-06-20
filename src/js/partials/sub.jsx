@@ -1,4 +1,3 @@
-import { JSX } from "properweb";
 import "src/js/partials/sub2";
 
 document.body.querySelector("ul").addEventListener("click", e => {
@@ -7,7 +6,7 @@ document.body.querySelector("ul").addEventListener("click", e => {
     const component = (
         <p>A new component.</p>
     );
-
+    
     JSX.render(component, document.body);
 });
 

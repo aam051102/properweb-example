@@ -1,3 +1,8 @@
-import { JSX } from "properweb";
+const component = ({ name }) => (
+    <>
+        <header><h1>Welcome, {name}.</h1></header>
+        <footer><h3>Goodbye, {name}.</h3></footer>
+    </>
+);
 
-export default JSX.renderToString(<footer><h1>Footer title.</h1></footer>);
+export default component;
