@@ -20,6 +20,7 @@
         "typescript": "^4.3.2"
     },
     "dependencies": {
-        "properweb": "^1.0.5"
+        "preact": "^10.5.13",
+        "properweb": "^1.0.7"
     }
 }

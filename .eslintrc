@@ -26,11 +26,12 @@
         "ecmaFeatures": {
             "jsx": true
         },
-		"project": "jsconfig.json"
+		"project": "tsconfig.json"
     },
 	"globals": {
 		"React": "writable",
-		"JSX": "writable"
+		"properweb": "readonly",
+		"JSX": "readonly"
 	},
     "rules": {
         "react/prop-types": [ "off" ],

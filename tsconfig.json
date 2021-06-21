@@ -6,6 +6,8 @@
 		"jsx": "preserve",
 		"jsxFactory": "JSX.createElement",
 		"jsxFragmentFactory": "JSX.fragment",
+		"jsxImportSource": "properweb",
+		"types": ["properweb"],
 		"lib": [
 			"DOM",
 			"DOM.Iterable",
