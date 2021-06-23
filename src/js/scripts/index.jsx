@@ -1,12 +1,12 @@
 import "src/js/partials/sub";
 
 const handleClick = e => {
-    JSX.render(<p>Cool, new, component.</p>, e.target);
+    Proper.render(<p>Cool, new, component.</p>, e.target);
 };
 
 document.body.querySelector("button").addEventListener("click", e => {
     e.preventDefault();
-
+    
     const component = (
         <>
             <li className="test-li">
@@ -18,5 +18,5 @@ document.body.querySelector("button").addEventListener("click", e => {
         </>
     );
 
-    JSX.render(component, document.body.querySelector("ul"));
+    Proper.render(component, document.body.querySelector("ul"));
 });

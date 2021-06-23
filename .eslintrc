@@ -30,9 +30,8 @@
     },
 	"globals": {
 		"React": "writable",
-		"properweb": "readonly",
-		"JSX": "readonly"
-	},
+		"Proper": "readonly"
+    },
     "rules": {
         "react/prop-types": [ "off" ],
         "react/jsx-tag-spacing": [ "warn", {

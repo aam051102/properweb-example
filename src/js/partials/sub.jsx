@@ -7,7 +7,7 @@ document.body.querySelector("ul").addEventListener("click", e => {
         <p>A new component.</p>
     );
     
-    JSX.render(component, document.body);
+    Proper.render(component, document.body);
 });
 
 console.log("Sub loaded");
