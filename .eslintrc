@@ -30,7 +30,8 @@
     },
 	"globals": {
 		"React": "writable",
-		"Proper": "readonly"
+		"Proper": "readonly",
+		"P": "readonly"
     },
     "rules": {
         "react/prop-types": [ "off" ],
