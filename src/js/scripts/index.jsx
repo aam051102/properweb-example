@@ -1,10 +1,13 @@
 import "src/js/partials/sub";
 
+P("main list", "ul");
+P("main button", "button");
+
 const handleClick = e => {
-    Proper.render(<p>Cool, new, component.</p>, e.target);
+    P.render(<p>Cool, new, component.</p>, e.target);
 };
 
-document.body.querySelector("button").addEventListener("click", e => {
+P("main button").addEventListener("click", e => {
     e.preventDefault();
     
     const component = (
@@ -18,5 +21,5 @@ document.body.querySelector("button").addEventListener("click", e => {
         </>
     );
 
-    Proper.render(component, document.body.querySelector("ul"));
+    P.render(component, P("main list"));
 });
