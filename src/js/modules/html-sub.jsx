@@ -1,4 +1,4 @@
-const component = ({ name }) => {
+export default ({ name }) => {
     let el = (
         <>
             <header><h1>Welcome, {name}.</h1></header>
@@ -8,5 +8,3 @@ const component = ({ name }) => {
 
     return el;
 };
-
-export default component;

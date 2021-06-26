@@ -5,7 +5,6 @@
         "plugin:react-hooks/recommended"
     ],
     "plugins": [
-        //"@typescript-eslint",
 		"react",
 		"react-hooks"
     ],
@@ -16,10 +15,9 @@
     },
     "settings": {
 		"react": {
-			"version": "detect"
+			"version": "17.0"
 		}
 	},
-	//"parser": "@typescript-eslint/parser",
 	"parserOptions": {
         "ecmaVersion": 2020,
         "sourceType": "module",
@@ -65,6 +63,7 @@
         "react/jsx-first-prop-new-line": ["warn", "multiline"],
         "react/jsx-max-props-per-line": [1, { "maximum": 1 }],
 
+        "jsx-quotes": ["warn", "prefer-double"],
         "lines-between-class-members": "warn",
         "no-multiple-empty-lines": [
 			"warn",
@@ -116,13 +115,16 @@
             "functions": "never"
         }],
         "padding-line-between-statements": ["warn",
-            { "blankLine": "always", "prev": "*", "next": ["export", "function"] }
+            { "blankLine": "always", "prev": [ "multiline-block-like" ], "next": ["export", "function"] }
         ],
         "padded-blocks": ["warn", "never"],
-        "object-curly-newline":[ "warn", { "minProperties": 2 } ],
-        "array-element-newline" : [ "warn", { "minItems": 3 } ],
-        "array-bracket-newline": [ "warn", { "minItems": 3 } ],
-        "array-bracket-spacing": [ "warn", "never"],
-        "multiline-ternary": ["warn", "never"]
+        "newline-per-chained-call": "warn",
+        "object-property-newline": "warn",
+        "object-curly-newline": ["warn", { "minProperties": 2 }],
+        "array-element-newline" : ["warn", { "minItems": 3 }],
+        "array-bracket-newline": ["warn", { "minItems": 3 }],
+        "array-bracket-spacing": ["warn", "never"],
+        "multiline-ternary": ["warn", "never"],
+        "quotes": [ "warn", "double" ]
 	}
 }
